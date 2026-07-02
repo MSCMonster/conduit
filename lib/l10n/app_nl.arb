@@ -1,6 +1,6 @@
 {
   "@@locale": "nl",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "Server niet ondersteund",
   "serverIncompatibleMessage": "Deze server draait Open WebUI {serverVersion}, wat nieuwer is dan deze app ondersteunt (tot {maxVersion}).",
   "serverIncompatibleResolution": "Om door te gaan, zet je je server terug naar {maxVersion} of eerder, of wacht je op een app-update die ondersteuning toevoegt.",
@@ -22,8 +22,8 @@
     "description": "Ondertitel die beschikbare acties uitlegt wanneer de server niet bereikbaar is"
   },
   "account": "Account",
-  "supportConduit": "Ondersteun Conduit",
-  "supportConduitSubtitle": "Houd Conduit onafhankelijk door doorlopende ontwikkeling te financieren.",
+  "supportConduit": "Ondersteun Open WebUI",
+  "supportConduitSubtitle": "Houd Open WebUI onafhankelijk door doorlopende ontwikkeling te financieren.",
   "githubSponsorsTitle": "GitHub Sponsors",
   "githubSponsorsSubtitle": "Word een terugkerende sponsor om roadmap-items te financieren.",
   "buyMeACoffeeTitle": "Buy Me a Coffee",
@@ -110,7 +110,7 @@
   "voicePromptTapStart": "Tik op Start om te beginnen",
   "voiceActionStop": "Stop",
   "voiceActionStart": "Start",
-  "messageHintText": "Vraag Conduit",
+  "messageHintText": "Vraag {model}",
   "stopGenerating": "Stop met genereren",
   "codeCopiedToClipboard": "Code gekopieerd naar klembord.",
   "send": "Verzenden",
@@ -132,7 +132,7 @@
   "chatQueuedOfflineTitle": "Offline in wachtrij",
   "chatQueuedOfflineMessage": "Deze reactie start wanneer de server bereikbaar is.",
   "chatQueuedPendingTitle": "In wachtrij voor verzending",
-  "chatQueuedPendingMessage": "Conduit start deze reactie zodra synchronisatie wordt uitgevoerd.",
+  "chatQueuedPendingMessage": "Open WebUI start deze reactie zodra synchronisatie wordt uitgevoerd.",
   "chatQueuedFailedTitle": "Verzenden mislukt",
   "chatQueuedFailedMessage": "Probeer de reactie in de wachtrij opnieuw of annuleer deze.",
   "chatQueuedSnackBar": "Bericht in wachtrij geplaatst. Het wordt verzonden wanneer de server bereikbaar is.",
@@ -208,7 +208,7 @@
   "deleteFolderMessage": "Deze map en zijn toewijzingen worden verwijderd.",
   "failedToDeleteFolder": "Kan map niet verwijderen",
   "aboutApp": "Over",
-  "aboutAppSubtitle": "Conduit informatie en links",
+  "aboutAppSubtitle": "Open WebUI informatie en links",
   "web": "Web",
   "imageGen": "Afbeeldingsgeneratie",
   "pinned": "Vastgepind",
@@ -297,7 +297,7 @@
   "themeLight": "Licht",
   "currentlyUsingDarkTheme": "Momenteel donker thema in gebruik",
   "currentlyUsingLightTheme": "Momenteel licht thema in gebruik",
-  "aboutConduit": "Over Conduit",
+  "aboutConduit": "Over Open WebUI",
   "versionLabel": "Versie: {version} ({build})",
   "@versionLabel": {
     "placeholders": {
@@ -336,7 +336,7 @@
   "androidAssistantTitle": "Digitale Android-assistent",
   "androidAssistantDescription": "Kies wat er gebeurt wanneer je de digitale Android-assistent activeert.",
   "androidAssistantOverlayOption": "Snelle overlay tonen (standaard)",
-  "androidAssistantNewChatOption": "Conduit openen met een nieuwe chat",
+  "androidAssistantNewChatOption": "Open WebUI openen met een nieuwe chat",
   "androidAssistantVoiceCallOption": "Spraakoproep starten",
   "sttSettings": "Spraak naar tekst",
   "sttEngineLabel": "Herkenningsengine",
@@ -675,13 +675,13 @@
   "@nextLabel": {
     "description": "Label for navigating to the next item."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Strak neutraal thema ontworpen voor Conduit.",
+  "themePaletteConduitDescription": "Strak neutraal thema ontworpen voor Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1230,7 +1230,7 @@
   "passwordUpdated": "Wachtwoord bijgewerkt.",
   "activeStatus": "Actief",
   "inactiveStatus": "Inactief",
-  "appInformation": "Conduit-app",
+  "appInformation": "Open WebUI-app",
   "appVersion": "Versie",
   "serverInformation": "Serverinformatie",
   "serverInfoUnavailable": "Serverinformatie is nu niet beschikbaar.",

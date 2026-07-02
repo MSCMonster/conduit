@@ -13,6 +13,7 @@ import '../auth/auth_state_manager.dart';
 import '../../features/auth/providers/unified_auth_providers.dart';
 import '../services/attachment_upload_queue.dart';
 import '../models/server_config.dart';
+import '../config/default_server.dart';
 import '../models/user.dart';
 import '../models/model.dart';
 import '../models/conversation.dart';
@@ -191,7 +192,23 @@ Future<ServerConfig?> activeServer(Ref ref) async {
   final configs = await ref.watch(serverConfigsProvider.future);
   final activeId = await storage.getActiveServerId();
 
-  if (configs.isEmpty) return null;
+  if (configs.isEmpty) {
+    // 特化版：若编译期注入了默认服务器地址，则内置一个服务器配置并落盘，
+    // 让首次启动跳过“手动输入服务器地址”页，直接进入登录/主界面。
+    // 地址来自 --dart-define(-from-file)，不进仓库（见 default_server.dart）。
+    if (kDefaultServerUrl.isNotEmpty) {
+      const defaultConfig = ServerConfig(
+        id: 'default-server',
+        name: kDefaultServerName,
+        url: kDefaultServerUrl,
+        isActive: true,
+      );
+      await storage.saveServerConfigs([defaultConfig]);
+      await storage.setActiveServerId(defaultConfig.id);
+      return defaultConfig;
+    }
+    return null;
+  }
 
   ServerConfig? fallback;
   for (final config in configs) {

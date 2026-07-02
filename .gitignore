@@ -95,6 +95,9 @@ coverage/
 .env.local
 .env.production
 
+# 特化版：内置默认服务器地址（含私有服务器地址），不提交到 git
+dart_defines.json
+
 # Generated files
 *.g.dart
 !lib/core/platform/conduit_platform_apis.g.dart

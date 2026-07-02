@@ -8,7 +8,6 @@ import '../../../shared/utils/adaptive_glass.dart';
 import '../../../shared/theme/conduit_input_styles.dart';
 import '../../../shared/theme/theme_extensions.dart';
 import '../../../shared/widgets/themed_sheets.dart';
-import 'package:conduit/l10n/app_localizations.dart';
 
 /// Full-screen bottom sheet editor shown when the chat input grows large.
 ///
@@ -21,11 +20,13 @@ class ExpandedTextEditorSheet extends StatefulWidget {
     required this.controller,
     required this.onSend,
     required this.onClose,
+    required this.hintText,
   });
 
   final TextEditingController controller;
   final VoidCallback onSend;
   final VoidCallback onClose;
+  final String hintText;
 
   @override
   State<ExpandedTextEditorSheet> createState() =>
@@ -60,7 +61,6 @@ class _ExpandedTextEditorSheetState extends State<ExpandedTextEditorSheet> {
   @override
   Widget build(BuildContext context) {
     final theme = context.conduitTheme;
-    final l10n = AppLocalizations.of(context)!;
     final viewInsets = MediaQuery.of(context).viewInsets;
     final viewPadding = MediaQuery.of(context).viewPadding;
     // Match the dense (compact) chat input button — 36px, medium size.
@@ -135,7 +135,7 @@ class _ExpandedTextEditorSheetState extends State<ExpandedTextEditorSheet> {
                 height: 1.5,
               ),
               decoration: context.conduitInputStyles
-                  .borderless(hint: l10n.messageHintText)
+                  .borderless(hint: widget.hintText)
                   .copyWith(
                     contentPadding: const EdgeInsets.fromLTRB(
                       Spacing.md,

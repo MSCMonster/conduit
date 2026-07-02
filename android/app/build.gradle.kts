@@ -20,7 +20,7 @@ android {
     ndkVersion = "29.0.14206865"
 
     defaultConfig {
-    applicationId = "app.cogwheel.conduit"
+    applicationId = "site.nekoneko.openwebui"
     minSdk = flutter.minSdkVersion
     targetSdk = 36
     versionCode = flutter.versionCode

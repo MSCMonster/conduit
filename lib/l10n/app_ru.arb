@@ -1,6 +1,6 @@
 {
   "@@locale": "ru",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "Сервер не поддерживается",
   "serverIncompatibleMessage": "На этом сервере установлена версия Open WebUI {serverVersion}, которая новее, чем поддерживает это приложение (до {maxVersion}).",
   "serverIncompatibleResolution": "Чтобы продолжить, понизьте версию сервера до {maxVersion} или более ранней либо дождитесь обновления приложения с поддержкой новой версии.",
@@ -22,8 +22,8 @@
     "description": "Подзаголовок с доступными действиями при недоступности сервера"
   },
   "account": "Аккаунт",
-  "supportConduit": "Поддержать Conduit",
-  "supportConduitSubtitle": "Сохраните независимость Conduit, финансируя разработку.",
+  "supportConduit": "Поддержать Open WebUI",
+  "supportConduitSubtitle": "Сохраните независимость Open WebUI, финансируя разработку.",
   "githubSponsorsTitle": "GitHub Sponsors",
   "githubSponsorsSubtitle": "Станьте регулярным спонсором для финансирования дорожной карты.",
   "buyMeACoffeeTitle": "Buy Me a Coffee",
@@ -110,7 +110,7 @@
   "voicePromptTapStart": "Нажмите «Начать» для запуска",
   "voiceActionStop": "Стоп",
   "voiceActionStart": "Начать",
-  "messageHintText": "Спросите Conduit",
+  "messageHintText": "Спросите {model}",
   "stopGenerating": "Остановить генерацию",
   "codeCopiedToClipboard": "Код скопирован в буфер обмена.",
   "send": "Отправить",
@@ -132,7 +132,7 @@
   "chatQueuedOfflineTitle": "В очереди офлайн",
   "chatQueuedOfflineMessage": "Этот ответ начнется, когда сервер станет доступен.",
   "chatQueuedPendingTitle": "В очереди на отправку",
-  "chatQueuedPendingMessage": "Conduit начнет этот ответ, как только запустится синхронизация.",
+  "chatQueuedPendingMessage": "Open WebUI начнет этот ответ, как только запустится синхронизация.",
   "chatQueuedFailedTitle": "Отправка не удалась",
   "chatQueuedFailedMessage": "Повторите ответ из очереди или отмените его.",
   "chatQueuedSnackBar": "Сообщение поставлено в очередь. Оно будет отправлено, когда сервер станет доступен.",
@@ -208,7 +208,7 @@
   "deleteFolderMessage": "Эта папка и ее ссылки будут удалены.",
   "failedToDeleteFolder": "Не удалось удалить папку",
   "aboutApp": "О",
-  "aboutAppSubtitle": "Информация и ссылки Conduit",
+  "aboutAppSubtitle": "Информация и ссылки Open WebUI",
   "web": "Веб",
   "imageGen": "Генерация изображений",
   "pinned": "Закреплено",
@@ -297,7 +297,7 @@
   "themeLight": "Светлая",
   "currentlyUsingDarkTheme": "Используется темная тема",
   "currentlyUsingLightTheme": "Используется светлая тема",
-  "aboutConduit": "О Conduit",
+  "aboutConduit": "О Open WebUI",
   "versionLabel": "Версия: {version} ({build})",
   "@versionLabel": {
     "placeholders": {
@@ -336,7 +336,7 @@
   "androidAssistantTitle": "Цифровой ассистент Android",
   "androidAssistantDescription": "Выберите, что произойдёт при запуске цифрового ассистента Android.",
   "androidAssistantOverlayOption": "Показать быстрое наложение (по умолчанию)",
-  "androidAssistantNewChatOption": "Открыть Conduit с новым чатом",
+  "androidAssistantNewChatOption": "Открыть Open WebUI с новым чатом",
   "androidAssistantVoiceCallOption": "Начать голосовой вызов",
   "sttSettings": "Речь в текст",
   "sttEngineLabel": "Движок распознавания",
@@ -675,13 +675,13 @@
   "@nextLabel": {
     "description": "Label for navigating to the next item."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Нейтральная чистая тема, созданная для Conduit.",
+  "themePaletteConduitDescription": "Нейтральная чистая тема, созданная для Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1230,7 +1230,7 @@
   "passwordUpdated": "Пароль обновлен.",
   "activeStatus": "Активен",
   "inactiveStatus": "Неактивен",
-  "appInformation": "Приложение Conduit",
+  "appInformation": "Приложение Open WebUI",
   "appVersion": "Версия",
   "serverInformation": "Информация о сервере",
   "serverInfoUnavailable": "Информация о сервере сейчас недоступна.",

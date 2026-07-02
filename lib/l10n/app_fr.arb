@@ -1,6 +1,6 @@
 {
   "@@locale": "fr",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "Serveur non pris en charge",
   "serverIncompatibleMessage": "Ce serveur exécute Open WebUI {serverVersion}, une version plus récente que celle prise en charge par cette application (jusqu'à {maxVersion}).",
   "serverIncompatibleResolution": "Pour continuer, rétrogradez votre serveur vers la version {maxVersion} ou une version antérieure, ou attendez une mise à jour de l'application qui ajoute la prise en charge.",
@@ -22,7 +22,7 @@
     "description": "Sous-titre expliquant les actions possibles quand le serveur est injoignable"
   },
   "account": "Compte",
-  "supportConduit": "Soutenir Conduit",
+  "supportConduit": "Soutenir Open WebUI",
   "supportConduitSubtitle": "Financez le développement continu et les nouvelles fonctionnalités.",
   "githubSponsorsTitle": "GitHub Sponsors",
   "githubSponsorsSubtitle": "Devenez sponsor récurrent pour soutenir la feuille de route.",
@@ -110,7 +110,7 @@
   "voicePromptTapStart": "Appuyez sur \"Démarrer\" pour commencer",
   "voiceActionStop": "Arrêter",
   "voiceActionStart": "Démarrer",
-  "messageHintText": "Demander à Conduit",
+  "messageHintText": "Demander à {model}",
   "stopGenerating": "Arrêter la génération",
   "codeCopiedToClipboard": "Code copié dans le presse-papiers.",
   "send": "Envoyer",
@@ -132,7 +132,7 @@
   "chatQueuedOfflineTitle": "En file d'attente hors ligne",
   "chatQueuedOfflineMessage": "Cette réponse démarrera lorsque le serveur sera joignable.",
   "chatQueuedPendingTitle": "En file d'attente pour l'envoi",
-  "chatQueuedPendingMessage": "Conduit démarrera cette réponse dès que la synchronisation s'exécutera.",
+  "chatQueuedPendingMessage": "Open WebUI démarrera cette réponse dès que la synchronisation s'exécutera.",
   "chatQueuedFailedTitle": "Échec de l'envoi",
   "chatQueuedFailedMessage": "Réessayez la réponse en file d'attente ou annulez-la.",
   "chatQueuedSnackBar": "Message mis en file d'attente. Il sera envoyé lorsque le serveur sera joignable.",
@@ -208,7 +208,7 @@
   "deleteFolderMessage": "Ce dossier et ses associations seront supprimés.",
   "failedToDeleteFolder": "Échec de la suppression du dossier",
   "aboutApp": "À propos",
-  "aboutAppSubtitle": "Informations et liens Conduit",
+  "aboutAppSubtitle": "Informations et liens Open WebUI",
   "web": "Web",
   "imageGen": "Gén. image",
   "pinned": "Épinglé",
@@ -297,7 +297,7 @@
   "themeLight": "Clair",
   "currentlyUsingDarkTheme": "Thème sombre actuellement utilisé",
   "currentlyUsingLightTheme": "Thème clair actuellement utilisé",
-  "aboutConduit": "À propos de Conduit",
+  "aboutConduit": "À propos de Open WebUI",
   "versionLabel": "Version : {version} ({build})",
   "@versionLabel": {
     "placeholders": {
@@ -336,7 +336,7 @@
   "androidAssistantTitle": "Assistant numérique Android",
   "androidAssistantDescription": "Choisissez ce qui se passe lorsque vous déclenchez l’assistant numérique Android.",
   "androidAssistantOverlayOption": "Afficher la superposition rapide (par défaut)",
-  "androidAssistantNewChatOption": "Ouvrir Conduit avec un nouveau chat",
+  "androidAssistantNewChatOption": "Ouvrir Open WebUI avec un nouveau chat",
   "androidAssistantVoiceCallOption": "Démarrer un appel vocal",
   "sttSettings": "Voix vers texte",
   "sttEngineLabel": "Moteur de reconnaissance",
@@ -675,13 +675,13 @@
   "@nextLabel": {
     "description": "Label for navigating to the next item."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Thème neutre et épuré conçu pour Conduit.",
+  "themePaletteConduitDescription": "Thème neutre et épuré conçu pour Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1230,7 +1230,7 @@
   "passwordUpdated": "Mot de passe mis à jour.",
   "activeStatus": "Actif",
   "inactiveStatus": "Inactif",
-  "appInformation": "Application Conduit",
+  "appInformation": "Application Open WebUI",
   "appVersion": "Version",
   "serverInformation": "Informations du serveur",
   "serverInfoUnavailable": "Les informations du serveur sont indisponibles pour le moment.",

@@ -1,6 +1,6 @@
 {
   "@@locale": "de",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "Server nicht unterstützt",
   "serverIncompatibleMessage": "Auf diesem Server läuft Open WebUI {serverVersion}, was neuer ist, als diese App unterstützt (bis {maxVersion}).",
   "serverIncompatibleResolution": "Um fortzufahren, stufe deinen Server auf {maxVersion} oder älter zurück oder warte auf ein App-Update, das diese Version unterstützt.",
@@ -22,7 +22,7 @@
     "description": "Untertitel mit den verfügbaren Aktionen, wenn der Server nicht erreichbar ist"
   },
   "account": "Konto",
-  "supportConduit": "Conduit unterstützen",
+  "supportConduit": "Open WebUI unterstützen",
   "supportConduitSubtitle": "Hilf, die Weiterentwicklung und neue Funktionen zu finanzieren.",
   "githubSponsorsTitle": "GitHub Sponsors",
   "githubSponsorsSubtitle": "Werde monatliche*r Sponsor*in und unterstütze die Roadmap.",
@@ -110,7 +110,7 @@
   "voicePromptTapStart": "Tippe auf \"Starten\", um zu beginnen",
   "voiceActionStop": "Stopp",
   "voiceActionStart": "Starten",
-  "messageHintText": "Frag Conduit",
+  "messageHintText": "Frag {model}",
   "stopGenerating": "Generierung stoppen",
   "codeCopiedToClipboard": "Code in die Zwischenablage kopiert.",
   "send": "Senden",
@@ -132,7 +132,7 @@
   "chatQueuedOfflineTitle": "Offline eingereiht",
   "chatQueuedOfflineMessage": "Diese Antwort startet, sobald der Server erreichbar ist.",
   "chatQueuedPendingTitle": "Zum Senden eingereiht",
-  "chatQueuedPendingMessage": "Conduit startet diese Antwort, sobald die Synchronisierung läuft.",
+  "chatQueuedPendingMessage": "Open WebUI startet diese Antwort, sobald die Synchronisierung läuft.",
   "chatQueuedFailedTitle": "Senden fehlgeschlagen",
   "chatQueuedFailedMessage": "Versuche die eingereihte Antwort erneut oder brich sie ab.",
   "chatQueuedSnackBar": "Nachricht eingereiht. Sie wird gesendet, sobald der Server erreichbar ist.",
@@ -210,7 +210,7 @@
   "deleteFolderMessage": "Dieser Ordner und seine Zuordnungen werden entfernt.",
   "failedToDeleteFolder": "Ordner konnte nicht gelöscht werden",
   "aboutApp": "Über",
-  "aboutAppSubtitle": "Conduit Informationen und Links",
+  "aboutAppSubtitle": "Open WebUI Informationen und Links",
   "web": "Web",
   "imageGen": "Bild-Gen",
   "pinned": "Angeheftet",
@@ -299,7 +299,7 @@
   "themeLight": "Hell",
   "currentlyUsingDarkTheme": "Aktuell dunkles Thema",
   "currentlyUsingLightTheme": "Aktuell helles Thema",
-  "aboutConduit": "Über Conduit",
+  "aboutConduit": "Über Open WebUI",
   "versionLabel": "Version: {version} ({build})",
   "@versionLabel": {
     "placeholders": {
@@ -338,7 +338,7 @@
   "androidAssistantTitle": "Android-Digitalassistent",
   "androidAssistantDescription": "Wähle aus, was passiert, wenn du den Android-Digitalassistenten auslöst.",
   "androidAssistantOverlayOption": "Schnell-Overlay anzeigen (Standard)",
-  "androidAssistantNewChatOption": "Conduit mit einem neuen Chat öffnen",
+  "androidAssistantNewChatOption": "Open WebUI mit einem neuen Chat öffnen",
   "androidAssistantVoiceCallOption": "Sprachanruf starten",
   "sttSettings": "Sprache zu Text",
   "sttEngineLabel": "Erkennungs-Engine",
@@ -677,13 +677,13 @@
   "@nextLabel": {
     "description": "Label for navigating to the next item."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Schlichtes neutrales Design für Conduit.",
+  "themePaletteConduitDescription": "Schlichtes neutrales Design für Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1232,7 +1232,7 @@
   "passwordUpdated": "Passwort aktualisiert.",
   "activeStatus": "Aktiv",
   "inactiveStatus": "Inaktiv",
-  "appInformation": "Conduit-App",
+  "appInformation": "Open WebUI-App",
   "appVersion": "Version",
   "serverInformation": "Serverinformationen",
   "serverInfoUnavailable": "Serverinformationen sind derzeit nicht verfügbar.",

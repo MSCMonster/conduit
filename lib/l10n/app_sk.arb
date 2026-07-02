@@ -1,6 +1,6 @@
 {
   "@@locale": "sk",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "Server nie je podporovaný",
   "serverIncompatibleMessage": "Tento server používa Open WebUI {serverVersion}, čo je novšia verzia, než akú táto aplikácia podporuje (maximálne {maxVersion}).",
   "serverIncompatibleResolution": "Ak chcete pokračovať, znížte verziu servera na {maxVersion} alebo staršiu, alebo počkajte na aktualizáciu aplikácie, ktorá pridá podporu.",
@@ -43,11 +43,11 @@
   "@account": {
     "description": "Section header for account-related options."
   },
-  "supportConduit": "Podporiť Conduit",
+  "supportConduit": "Podporiť Open WebUI",
   "@supportConduit": {
     "description": "Section header inviting the user to financially support the project."
   },
-  "supportConduitSubtitle": "Pomôžte udržať Conduit nezávislý financovaním ďalšieho vývoja.",
+  "supportConduitSubtitle": "Pomôžte udržať Open WebUI nezávislý financovaním ďalšieho vývoja.",
   "@supportConduitSubtitle": {
     "description": "Subtitle explaining why donations are helpful."
   },
@@ -521,7 +521,7 @@
   "@voiceCallErrorHelp": {
     "description": "Guidance shown when the voice call encounters an error."
   },
-  "messageHintText": "Opýtať sa Conduitu",
+  "messageHintText": "Opýtať sa {model}",
   "@messageHintText": {
     "description": "Short placeholder text in the message input."
   },
@@ -633,7 +633,7 @@
   "@chatQueuedPendingTitle": {
     "description": "Title shown when a queued assistant response is waiting for sync/backoff."
   },
-  "chatQueuedPendingMessage": "Conduit spustí túto odpoveď hneď, ako sa spustí synchronizácia.",
+  "chatQueuedPendingMessage": "Open WebUI spustí túto odpoveď hneď, ako sa spustí synchronizácia.",
   "@chatQueuedPendingMessage": {
     "description": "Body text shown for a queued assistant response that is waiting to be sent."
   },
@@ -931,7 +931,7 @@
   "@aboutApp": {
     "description": "Settings tile title to view app information."
   },
-  "aboutAppSubtitle": "Informácie o Conduite a odkazy",
+  "aboutAppSubtitle": "Informácie o Open WebUIe a odkazy",
   "@aboutAppSubtitle": {
     "description": "Subtitle/description for the About section."
   },
@@ -1236,13 +1236,13 @@
   "@themePalette": {
     "description": "Title for selecting the app color palette."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Čistý neutrálny motív navrhnutý pre Conduit.",
+  "themePaletteConduitDescription": "Čistý neutrálny motív navrhnutý pre Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1288,7 +1288,7 @@
   "@currentlyUsingLightTheme": {
     "description": "Status text indicating light theme is active."
   },
-  "aboutConduit": "O Conduite",
+  "aboutConduit": "O Open WebUIe",
   "@aboutConduit": {
     "description": "Dialog title for app information."
   },
@@ -1396,7 +1396,7 @@
   "@androidAssistantOverlayOption": {
     "description": "Option label for keeping the current assistant overlay."
   },
-  "androidAssistantNewChatOption": "Otvoriť Conduit s novým chatom",
+  "androidAssistantNewChatOption": "Otvoriť Open WebUI s novým chatom",
   "@androidAssistantNewChatOption": {
     "description": "Option label for opening the app to a fresh chat from the assistant trigger."
   },
@@ -2867,7 +2867,7 @@
   "@inactiveStatus": {
     "description": "Label for an inactive account status."
   },
-  "appInformation": "Aplikácia Conduit",
+  "appInformation": "Aplikácia Open WebUI",
   "@appInformation": {
     "description": "Heading for local app information."
   },

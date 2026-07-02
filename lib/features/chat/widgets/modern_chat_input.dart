@@ -2606,7 +2606,9 @@ class _ModernChatInputState extends ConsumerState<ModernChatInput>
               final inputPlaceholder = _isRecording
                   ? AppLocalizations.of(context)!.recordingAudio
                   : widget.placeholder ??
-                        AppLocalizations.of(context)!.messageHintText;
+                        AppLocalizations.of(context)!.messageHintText(
+                          ref.read(selectedModelProvider)?.name ?? 'Open WebUI',
+                        );
 
               // IMPORTANT: Always use TextInputAction.newline for multiline
               // chat input. Using TextInputAction.send causes issues with
@@ -3332,7 +3334,11 @@ class _ModernChatInputState extends ConsumerState<ModernChatInput>
         final result = await NativeSheetBridge.instance.presentTextEditor(
           title: widget.placeholder ?? l10n.sendMessage,
           value: _controller.text,
-          placeholder: widget.placeholder ?? l10n.messageHintText,
+          placeholder:
+              widget.placeholder ??
+              l10n.messageHintText(
+                ref.read(selectedModelProvider)?.name ?? 'Open WebUI',
+              ),
           sendLabel: l10n.send,
           valueId: 'expanded-text-value',
           sendActionId: 'send-expanded-text',
@@ -3389,6 +3395,9 @@ class _ModernChatInputState extends ConsumerState<ModernChatInput>
       useSafeArea: true,
       builder: (modalContext) => ExpandedTextEditorSheet(
         controller: modalController,
+        hintText: AppLocalizations.of(context)!.messageHintText(
+          ref.read(selectedModelProvider)?.name ?? 'Open WebUI',
+        ),
         onClose: () {
           FocusScope.of(modalContext).unfocus();
           Navigator.of(modalContext).pop(false);

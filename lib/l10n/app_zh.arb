@@ -1,6 +1,6 @@
 {
   "@@locale": "zh",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "不支持该服务器",
   "serverIncompatibleMessage": "此服务器运行的 Open WebUI 版本为 {serverVersion}，高于本应用支持的版本（最高 {maxVersion}）。",
   "serverIncompatibleResolution": "若要继续，请将服务器降级到 {maxVersion} 或更早版本，或等待新增支持的应用更新。",
@@ -22,8 +22,8 @@
     "description": "当无法访问服务器时解释可用操作的副标题"
   },
   "account": "账户",
-  "supportConduit": "支持 Conduit",
-  "supportConduitSubtitle": "通过资助持续开发来保持 Conduit 的独立性。",
+  "supportConduit": "支持 Open WebUI",
+  "supportConduitSubtitle": "通过资助持续开发来保持 Open WebUI 的独立性。",
   "githubSponsorsTitle": "GitHub 赞助",
   "githubSponsorsSubtitle": "成为定期赞助者以资助路线图项目。",
   "buyMeACoffeeTitle": "Buy Me a Coffee",
@@ -110,7 +110,7 @@
   "voicePromptTapStart": "点击开始以开始",
   "voiceActionStop": "停止",
   "voiceActionStart": "开始",
-  "messageHintText": "问 Conduit",
+  "messageHintText": "问问 {model}",
   "stopGenerating": "停止生成",
   "codeCopiedToClipboard": "代码已复制到剪贴板。",
   "send": "发送",
@@ -132,7 +132,7 @@
   "chatQueuedOfflineTitle": "离线排队中",
   "chatQueuedOfflineMessage": "服务器可访问时，此响应将开始。",
   "chatQueuedPendingTitle": "已排队等待发送",
-  "chatQueuedPendingMessage": "同步运行后，Conduit 将立即开始此响应。",
+  "chatQueuedPendingMessage": "同步运行后，Open WebUI 将立即开始此响应。",
   "chatQueuedFailedTitle": "发送失败",
   "chatQueuedFailedMessage": "重试排队的响应或取消它。",
   "chatQueuedSnackBar": "消息已排队。服务器可访问时将发送。",
@@ -208,7 +208,7 @@
   "deleteFolderMessage": "此文件夹及其分配引用将被删除。",
   "failedToDeleteFolder": "无法删除文件夹",
   "aboutApp": "关于",
-  "aboutAppSubtitle": "Conduit 信息和链接",
+  "aboutAppSubtitle": "Open WebUI 信息和链接",
   "web": "网页",
   "imageGen": "图像生成",
   "pinned": "已置顶",
@@ -297,7 +297,7 @@
   "themeLight": "浅色",
   "currentlyUsingDarkTheme": "当前使用深色主题",
   "currentlyUsingLightTheme": "当前使用浅色主题",
-  "aboutConduit": "关于 Conduit",
+  "aboutConduit": "关于 Open WebUI",
   "versionLabel": "版本：{version}（{build}）",
   "@versionLabel": {
     "placeholders": {
@@ -336,7 +336,7 @@
   "androidAssistantTitle": "Android 数字助理",
   "androidAssistantDescription": "选择触发 Android 数字助理时要执行的操作。",
   "androidAssistantOverlayOption": "显示快速浮层（默认）",
-  "androidAssistantNewChatOption": "打开 Conduit 并新建聊天",
+  "androidAssistantNewChatOption": "打开 Open WebUI 并新建聊天",
   "androidAssistantVoiceCallOption": "开始语音通话",
   "sttSettings": "语音转文字",
   "sttEngineLabel": "识别引擎",
@@ -675,13 +675,13 @@
   "@nextLabel": {
     "description": "Label for navigating to the next item."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "为 Conduit 设计的简洁中性色主题。",
+  "themePaletteConduitDescription": "为 Open WebUI 设计的简洁中性色主题。",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1230,7 +1230,7 @@
   "passwordUpdated": "密码已更新。",
   "activeStatus": "活跃",
   "inactiveStatus": "未活跃",
-  "appInformation": "Conduit 应用",
+  "appInformation": "Open WebUI 应用",
   "appVersion": "版本",
   "serverInformation": "服务器信息",
   "serverInfoUnavailable": "服务器信息暂不可用。",

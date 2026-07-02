@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "@appTitle": {
     "description": "Application name displayed in the app and OS UI."
   },
@@ -86,11 +86,11 @@
   "@account": {
     "description": "Section header for account-related options."
   },
-  "supportConduit": "Support Conduit",
+  "supportConduit": "Support Open WebUI",
   "@supportConduit": {
     "description": "Section header inviting the user to financially support the project."
   },
-  "supportConduitSubtitle": "Keep Conduit independent by funding ongoing development.",
+  "supportConduitSubtitle": "Keep Open WebUI independent by funding ongoing development.",
   "@supportConduitSubtitle": {
     "description": "Subtitle explaining why donations are helpful."
   },
@@ -564,9 +564,14 @@
   "@voiceCallErrorHelp": {
     "description": "Guidance shown when the voice call encounters an error."
   },
-  "messageHintText": "Ask Conduit",
+  "messageHintText": "Ask {model}",
   "@messageHintText": {
-    "description": "Short placeholder text in the message input."
+    "description": "Short placeholder text in the message input.",
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
   },
   "stopGenerating": "Stop generating",
   "@stopGenerating": {
@@ -676,7 +681,7 @@
   "@chatQueuedPendingTitle": {
     "description": "Title shown when a queued assistant response is waiting for sync/backoff."
   },
-  "chatQueuedPendingMessage": "Conduit will start this response as soon as sync runs.",
+  "chatQueuedPendingMessage": "Open WebUI will start this response as soon as sync runs.",
   "@chatQueuedPendingMessage": {
     "description": "Body text shown for a queued assistant response that is waiting to be sent."
   },
@@ -974,7 +979,7 @@
   "@aboutApp": {
     "description": "Settings tile title to view app information."
   },
-  "aboutAppSubtitle": "Conduit information and links",
+  "aboutAppSubtitle": "Open WebUI information and links",
   "@aboutAppSubtitle": {
     "description": "Subtitle/description for the About section."
   },
@@ -1279,13 +1284,13 @@
   "@themePalette": {
     "description": "Title for selecting the app color palette."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Clean neutral theme designed for Conduit.",
+  "themePaletteConduitDescription": "Clean neutral theme designed for Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1331,7 +1336,7 @@
   "@currentlyUsingLightTheme": {
     "description": "Status text indicating light theme is active."
   },
-  "aboutConduit": "About Conduit",
+  "aboutConduit": "About Open WebUI",
   "@aboutConduit": {
     "description": "Dialog title for app information."
   },
@@ -1439,7 +1444,7 @@
   "@androidAssistantOverlayOption": {
     "description": "Option label for keeping the current assistant overlay."
   },
-  "androidAssistantNewChatOption": "Open Conduit with a new chat",
+  "androidAssistantNewChatOption": "Open Open WebUI with a new chat",
   "@androidAssistantNewChatOption": {
     "description": "Option label for opening the app to a fresh chat from the assistant trigger."
   },
@@ -2966,7 +2971,7 @@
   "@inactiveStatus": {
     "description": "Label for an inactive account status."
   },
-  "appInformation": "Conduit app",
+  "appInformation": "Open WebUI app",
   "@appInformation": {
     "description": "Heading for local app information."
   },

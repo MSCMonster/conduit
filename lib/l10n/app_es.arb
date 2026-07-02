@@ -1,6 +1,6 @@
 {
   "@@locale": "es",
-  "appTitle": "Conduit",
+  "appTitle": "Open WebUI",
   "serverIncompatibleTitle": "Servidor no compatible",
   "serverIncompatibleMessage": "Este servidor ejecuta Open WebUI {serverVersion}, que es más reciente de lo que admite esta app (hasta {maxVersion}).",
   "serverIncompatibleResolution": "Para continuar, baja la versión de tu servidor a {maxVersion} o anterior, o espera a una actualización de la app que añada compatibilidad.",
@@ -22,8 +22,8 @@
     "description": "Subtítulo que explica las acciones disponibles cuando no se puede acceder al servidor"
   },
   "account": "Cuenta",
-  "supportConduit": "Apoyar Conduit",
-  "supportConduitSubtitle": "Mantén Conduit independiente financiando el desarrollo continuo.",
+  "supportConduit": "Apoyar Open WebUI",
+  "supportConduitSubtitle": "Mantén Open WebUI independiente financiando el desarrollo continuo.",
   "githubSponsorsTitle": "GitHub Sponsors",
   "githubSponsorsSubtitle": "Conviértete en un patrocinador recurrente para financiar elementos del roadmap.",
   "buyMeACoffeeTitle": "Buy Me a Coffee",
@@ -110,7 +110,7 @@
   "voicePromptTapStart": "Toca Iniciar para comenzar",
   "voiceActionStop": "Detener",
   "voiceActionStart": "Iniciar",
-  "messageHintText": "Pregunta a Conduit",
+  "messageHintText": "Pregunta a {model}",
   "stopGenerating": "Detener generación",
   "codeCopiedToClipboard": "Código copiado al portapapeles.",
   "send": "Enviar",
@@ -132,7 +132,7 @@
   "chatQueuedOfflineTitle": "En cola sin conexión",
   "chatQueuedOfflineMessage": "Esta respuesta empezará cuando el servidor esté disponible.",
   "chatQueuedPendingTitle": "En cola para enviar",
-  "chatQueuedPendingMessage": "Conduit iniciará esta respuesta en cuanto se ejecute la sincronización.",
+  "chatQueuedPendingMessage": "Open WebUI iniciará esta respuesta en cuanto se ejecute la sincronización.",
   "chatQueuedFailedTitle": "Error al enviar",
   "chatQueuedFailedMessage": "Reintenta la respuesta en cola o cancélala.",
   "chatQueuedSnackBar": "Mensaje en cola. Se enviará cuando el servidor esté disponible.",
@@ -208,7 +208,7 @@
   "deleteFolderMessage": "Esta carpeta y sus referencias de asignación se eliminarán.",
   "failedToDeleteFolder": "No se pudo eliminar la carpeta",
   "aboutApp": "Acerca de",
-  "aboutAppSubtitle": "Información y enlaces de Conduit",
+  "aboutAppSubtitle": "Información y enlaces de Open WebUI",
   "web": "Web",
   "imageGen": "Generación de imágenes",
   "pinned": "Anclado",
@@ -297,7 +297,7 @@
   "themeLight": "Claro",
   "currentlyUsingDarkTheme": "Usando actualmente el tema oscuro",
   "currentlyUsingLightTheme": "Usando actualmente el tema claro",
-  "aboutConduit": "Acerca de Conduit",
+  "aboutConduit": "Acerca de Open WebUI",
   "versionLabel": "Versión: {version} ({build})",
   "@versionLabel": {
     "placeholders": {
@@ -336,7 +336,7 @@
   "androidAssistantTitle": "Asistente digital de Android",
   "androidAssistantDescription": "Elige qué ocurre cuando activas el asistente digital de Android.",
   "androidAssistantOverlayOption": "Mostrar superposición rápida (predeterminado)",
-  "androidAssistantNewChatOption": "Abrir Conduit con un chat nuevo",
+  "androidAssistantNewChatOption": "Abrir Open WebUI con un chat nuevo",
   "androidAssistantVoiceCallOption": "Iniciar una llamada de voz",
   "sttSettings": "Voz a texto",
   "sttEngineLabel": "Motor de reconocimiento",
@@ -675,13 +675,13 @@
   "@nextLabel": {
     "description": "Label for navigating to the next item."
   },
-  "themePaletteConduitLabel": "Conduit",
+  "themePaletteConduitLabel": "Open WebUI",
   "@themePaletteConduitLabel": {
-    "description": "Palette name for the default Conduit theme."
+    "description": "Palette name for the default Open WebUI theme."
   },
-  "themePaletteConduitDescription": "Tema neutro y limpio diseñado para Conduit.",
+  "themePaletteConduitDescription": "Tema neutro y limpio diseñado para Open WebUI.",
   "@themePaletteConduitDescription": {
-    "description": "Description of the Conduit palette."
+    "description": "Description of the Open WebUI palette."
   },
   "themePaletteClaudeLabel": "Claude",
   "@themePaletteClaudeLabel": {
@@ -1230,7 +1230,7 @@
   "passwordUpdated": "Contraseña actualizada.",
   "activeStatus": "Activo",
   "inactiveStatus": "Inactivo",
-  "appInformation": "Aplicación Conduit",
+  "appInformation": "Aplicación Open WebUI",
   "appVersion": "Versión",
   "serverInformation": "Información del servidor",
   "serverInfoUnavailable": "La información del servidor no está disponible ahora.",
