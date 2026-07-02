@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Open WebUI 的 OI 标志：黑色 O(圆环) + I(圆角竖条)，居中于自适应图标安全区内 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- O：外圆 + 内圆挖空（evenOdd 得到圆环） -->
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M26,54 A19,19 0 1,0 64,54 A19,19 0 1,0 26,54 Z M34,54 A11,11 0 1,0 56,54 A11,11 0 1,0 34,54 Z" />
+    <!-- I：圆角竖条 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M74.5,35 H77.5 A4.5,4.5 0 0 1 82,39.5 V68.5 A4.5,4.5 0 0 1 77.5,73 H74.5 A4.5,4.5 0 0 1 70,68.5 V39.5 A4.5,4.5 0 0 1 74.5,35 Z" />
+</vector>
